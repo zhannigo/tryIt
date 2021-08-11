@@ -60,6 +60,8 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 0.86274517, g: 0.28627452, b: 0.2901961, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -83,7 +85,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7035701217354054756}
   - component: {fileID: 7035701217354054758}
-  - component: {fileID: 7035701217354054757}
+  - component: {fileID: 2500960954345763223}
   m_Layer: 5
   m_Name: Health_bar
   m_TagString: Untagged
@@ -126,6 +128,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Navigation:
     m_Mode: 0
+    m_WrapAround: 0
     m_SelectOnUp: {fileID: 0}
     m_SelectOnDown: {fileID: 0}
     m_SelectOnLeft: {fileID: 0}
@@ -162,7 +165,7 @@ MonoBehaviour:
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &7035701217354054757
+--- !u!114 &2500960954345763223
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -171,7 +174,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 7035701217354054779}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21aceb4b87a7d5343b0e49a01d267bfe, type: 3}
+  m_Script: {fileID: 11500000, guid: aa69b50f898108747a1aece06ffedd53, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   slider: {fileID: 7035701217354054758}
@@ -235,10 +238,12 @@ MonoBehaviour:
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a496d4b6fc30c0d4c98451ea45db5ebb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 21ba6cacfe0ae4f47878cf9489b307da, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

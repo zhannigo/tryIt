@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4623227371597239627}
   - component: {fileID: 4974038219099487835}
   - component: {fileID: 4974038219099487825}
-  - component: {fileID: 5195990710345581137}
+  - component: {fileID: 7976911973059034237}
   m_Layer: 10
   m_Name: Player
   m_TagString: Player
@@ -143,7 +143,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.29
---- !u!114 &5195990710345581137
+--- !u!114 &7976911973059034237
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -152,9 +152,26 @@ MonoBehaviour:
   m_GameObject: {fileID: 4623227371597239626}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95b02f015aecfcf4198bc20ad10e182f, type: 3}
+  m_Script: {fileID: 11500000, guid: a3ec6a3eb7872404385ecc879a4dcc40, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Animator: {fileID: 4623227371597239627}
+  healthBar: {fileID: 0}
+  attackPoint: {fileID: 4974038219355072942}
+  _attackRange: 1
+  _attackDamage: 15
+  enemyLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  runSpeed: 60
+  m_JumpForce: 30
+  groundCheck: {fileID: 0}
+  whatIsGround:
+    serializedVersion: 2
+    m_Bits: 0
+  groundRadius: 0.5
+  _maxPlayerHP: 30
+  _currentPlayerHP: 0
 --- !u!1 &4974038219355072943
 GameObject:
   m_ObjectHideFlags: 0
