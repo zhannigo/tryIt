@@ -36,5 +36,6 @@ public class Spawner : MonoBehaviour
         // Сюда можно дописать использование пула для врагов или более сложный алгоритм выбора противника
         var prefab = enemyPrefabs[Random.Range(0, enemyPrefabs.Count)];
         return Instantiate(prefab, spawnPoint.position, spawnPoint.rotation);
+        //yield return null;
     }
 }
